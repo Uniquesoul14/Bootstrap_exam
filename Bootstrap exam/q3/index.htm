@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active.</title>
+    <!-- bs css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- bs js -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <!-- css main -->
+      <link rel="stylesheet" href="style.css">
+      <!--icon-cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="navbar navbar-expand-lg navbar-light " id="nav">
+        <div class="container">
+            <a href="#" class="navbar-brand" style=" font-size: 32px;">Active.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-pills w-100 justify-content-end " style="display: flex; align-items: center; ;">
+                    <li class="nav-item"><a href="#" class="nav-link" style="color: yellowgreen;">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!--offcanvas-->
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasRight">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Menu</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav w-100 d-flex justify-content-end"  >
+            <li class="nav-item"><a href="#" class="nav-link active text-success fw-bold ps-3">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active text-dark ps-3">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active text-dark ps-3">Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active text-dark ps-3">Portfolio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active text-dark ps-3">Team</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active text-dark ps-3">Blog</a></li>
+            <li class="nav-item dropdown">  
+                <a href="#" class="nav-link active text-dark ps-3  dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                    dropdown
+                </a>
+                <ul class="dropdown-menu"  >
+                    <li><a class="dropdown-item" href="#">dropdown-1</a></li>
+                    <li><a class="dropdown-item" href="#">dropdown-2</a></li>
+                    <li><a class="dropdown-item" href="#">dropdown-3</a></li>
+                    <li><a class="dropdown-item" href="#">dropdown-4</a></li>
+
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link active text-dark ps-3">contact</a></li>
+
+        </ul>
+    </div>
+  </div>
+
+
+</body>
+</html>

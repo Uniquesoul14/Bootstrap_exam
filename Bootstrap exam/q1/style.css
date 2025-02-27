@@ -1,0 +1,9 @@
+form
+
+{
+    width: 40%;
+    margin: auto;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 30px;
+}
